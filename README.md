@@ -8,7 +8,7 @@ Currently, Quora uses a Random Forest model to identify duplicate questions. In 
 
 For dataset and more info refer https://www.kaggle.com/c/quora-question-pairs
 
-## My Results
+## My Results & Summary
 
 | Model no. |        Model        | Text Vectorizer | Hyperparameter tuning | Train loss | Test loss | Accuracy % |
 |-----------|---------------------|------------|-----------------------|-----------|------------|------------|
