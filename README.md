@@ -8,7 +8,7 @@ Currently, Quora uses a Random Forest model to identify duplicate questions. In 
 
 For dataset and more info refer https://www.kaggle.com/c/quora-question-pairs
 
-## My Results & Summary 
+## Summary & Results
 
 | Model no. |        Model        | Text Vectorizer | Hyperparameter tuning | Train loss | Test loss | Accuracy % |
 |-----------|---------------------|------------|-----------------------|-----------|------------|------------|
@@ -17,6 +17,8 @@ For dataset and more info refer https://www.kaggle.com/c/quora-question-pairs
 |    2A.    |      Linear SVM     | TFIDF-W2V  |          YES          |   0.394   |   0.393    | 80.41
 |    2B.    |      Linear SVM     |   TFIDF    |          YES          |   0.357   |   0.372    | 81.82
 |     3.    |       XGBoost       | TFIDF-W2V  |          YES          |   0.267   |   0.321    | 85.18
+
+## My Approach 
 
 1. The original dataset comprises of 404290 rows and 6 columns. We checked for the null values and found couple of null entries in the questions which were replaced with empty string.
 
